@@ -1,0 +1,52 @@
+﻿body
+{width:100%;
+ background-color:antiquewhite;
+}
+ul {
+    list-style: none;
+}
+
+
+li a {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+    li a:hover {
+        background-color: floralwhite;
+    }
+
+nav li {
+    float: left;
+}
+
+nav {
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+}
+li{color:darkgoldenrod;
+   font-size:x-large;
+}
+a{color:darkgoldenrod;
+  font-size:x-large;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 505px 505px 505px;
+    align-content: center;
+}
+
+
+.grid-item {
+    grid-gap: 2em;
+}
+p{text-align:center;
+  color:darkgoldenrod
+}

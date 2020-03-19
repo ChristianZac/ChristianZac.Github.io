@@ -1,0 +1,30 @@
+﻿body {background-color:floralwhite;
+
+
+}
+header{text-align:center;
+       font-size:40px;
+     font-weight:bold;
+     color:goldenrod;
+}
+h2 {
+    color: darkgoldenrod;
+    text-align: center
+}
+h3 {
+    color: darkgoldenrod;
+    text-align: center
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 505px 505px 505px;
+}
+
+
+.grid-item {
+    grid-gap: 2em;
+}
+
+
+

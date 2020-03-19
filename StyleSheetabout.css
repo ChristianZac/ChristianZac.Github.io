@@ -1,0 +1,49 @@
+﻿body
+{background-color:antiquewhite;
+}
+p{width:90%}
+h2 {
+    text-align: center;
+    color: darkgoldenrod;
+}
+h3 {color:darkgoldenrod;
+    text-align: center;
+}
+div {
+    width: 48%;
+    float: left;
+    margin: 10px;
+}
+p{color:darkgoldenrod;}
+li{color:darkgoldenrod;}
+
+ul {
+    list-style: none;
+}
+
+
+li a {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+    li a:hover {
+        background-color: floralwhite;
+    }
+
+nav li {
+    float: left;
+}
+
+nav {
+    display: grid;
+}
+li {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+}
+

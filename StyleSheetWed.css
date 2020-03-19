@@ -1,0 +1,42 @@
+﻿body
+{background-color:antiquewhite;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 755px 755px;
+}
+ul {
+    list-style: none;
+}
+
+
+li a {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+    li a:hover {
+        background-color: floralwhite;
+    }
+
+nav li {
+    float: left;
+}
+
+nav {
+    display: grid;
+}
+
+h2 {
+    text-align: center;
+    color: goldenrod;
+}
+
+li {
+    display: block;
+    color: goldenrod;
+}
+div{color:darkgoldenrod;}

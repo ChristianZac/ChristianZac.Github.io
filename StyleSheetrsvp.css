@@ -1,0 +1,15 @@
+﻿body
+{background-color:antiquewhite;
+}
+label{display:inline-block;
+      width:400px;
+      color:darkgoldenrod;
+      font-size:x-large;
+}
+h1{color:darkgoldenrod;
+   text-align:center;
+}
+input{color:goldenrod;
+      font-size:large;
+}
+img{float:right;}

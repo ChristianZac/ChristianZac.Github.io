@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheetrsvp.css" />
+</head>
+<body>
+    <h1>RSVP Here please</h1>
+    <form action="index.php" name="'RSVPQuestions" method="post">
+        <label>First Name:</label><input type="text" name="first" /><br />
+        <label>Last Name:</label><input type="text" name="last" /><br />
+        <label>Gift type:</label><input type="text" name="Gift" /><br />
+        <label>Are you Attending the wedding?</label><input type="checkbox" name="Atending" value="Are you Attending the wedding?" /><br />
+        <label>Food preferences </label>Vegan<input type="radio" name="Vegan" value="Vegan" />
+        Gluten Free<input type="radio" name="Gluten" value="Gluten free" style="color:goldenrod" />
+        Contact Bride if you have other food allergies<input type="radio" name="Other" value="Other" /><br />
+        <label>Questions:</label><textarea rows="5" cols="30"></textarea><br />
+        <label>Are your kids attending also?</label><input type="checkbox" name="Kids" value="Kids" /><br />
+        <label>Thank you for ansering all these.</label><input type="button" onclick="location.href='Home.html';" value="Submit" />
+        <img src="about1.jpg" width="800px" height="600px"style="transform:rotate(90deg);"/>
+    </form>
+    </body>
+</html>
